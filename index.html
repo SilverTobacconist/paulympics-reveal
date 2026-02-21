@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Paulympics Results</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <main class="wrap">
+    <header class="top">
+      <div class="badge">PAULYMPICS</div>
+      <div class="sub" id="locLabel">Results Reveal</div>
+    </header>
+
+    <section class="stage">
+      <div class="card" id="third">
+        <div class="placeLabel">3rd Place</div>
+        <div class="names" id="thirdNames"></div>
+        <div class="points" id="thirdPoints"></div>
+      </div>
+
+      <div class="card" id="second">
+        <div class="placeLabel">2nd Place</div>
+        <div class="names" id="secondNames"></div>
+        <div class="points" id="secondPoints"></div>
+      </div>
+
+      <div class="card champ" id="champ">
+        <div class="placeLabel" id="champLabel">Champion</div>
+        <div class="names big" id="champNames"></div>
+        <div class="points" id="champPoints"></div>
+        <div class="confetti" id="confetti"></div>
+      </div>
+    </section>
+
+    <footer class="controls">
+      <button id="btn3">Reveal 3rd</button>
+      <button id="btn2">Reveal 2nd</button>
+      <button id="btn1">Reveal Champion</button>
+      <button id="btnR">Reset</button>
+    </footer>
+
+    <div class="tiny" id="updated"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

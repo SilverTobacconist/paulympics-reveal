@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  font-family: system-ui, Arial;
+  background:#0b0c1e;
+  color:white;
+}
+
+.wrap{
+  max-width:900px;
+  margin:40px auto;
+  padding:20px;
+}
+
+.card{
+  border:1px solid rgba(255,255,255,.2);
+  background:rgba(255,255,255,.05);
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:12px;
+  display:none;
+}
+
+.card.show{
+  display:block;
+}
+
+.names{
+  font-size:28px;
+  font-weight:800;
+}
+
+.names.big{
+  font-size:44px;
+}
+
+.controls button{
+  margin-right:10px;
+  padding:10px 14px;
+  font-weight:800;
+  cursor:pointer;
+}
